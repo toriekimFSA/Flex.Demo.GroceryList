@@ -1,4 +1,6 @@
 // ******* STATE *******
+const state = {};
+
 const items = [
   { name: "apple", price: 1.75 },
   { name: "banana", price: 0.25 },
@@ -13,6 +15,8 @@ const items = [
   { name: "cereal", price: 3.5 },
   { name: "rice", price: 5 },
 ];
+
+// ******* REFERENCES *******
 
 // ******* EVENT LISTENERS *******
 
