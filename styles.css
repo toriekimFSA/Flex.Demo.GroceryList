@@ -96,3 +96,7 @@ td {
 tfoot tr td {
   border-bottom: none;
 }
+
+.complete {
+  text-decoration: line-through;
+}
