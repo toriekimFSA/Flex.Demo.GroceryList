@@ -22,4 +22,8 @@ const items = [
   { name: "rice", price: 5 },
 ];
 
-// ******* STATE *******
+// ******* EVENT LISTENERS *******
+
+// ******* RENDER *******
+
+// ******* FUNCTIONS *******
