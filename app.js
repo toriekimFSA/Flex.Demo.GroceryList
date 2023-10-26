@@ -1,12 +1,4 @@
 // ******* STATE *******
-const state = {
-  groceries: [
-    { name: "apple", price: 1.75, quantity: 1 },
-    { name: "banana", price: 0.25, quantity: 1 },
-  ],
-  complete: [],
-};
-
 const items = [
   { name: "apple", price: 1.75 },
   { name: "banana", price: 0.25 },
@@ -22,4 +14,8 @@ const items = [
   { name: "rice", price: 5 },
 ];
 
-// ******* STATE *******
+// ******* EVENT LISTENERS *******
+
+// ******* RENDER *******
+
+// ******* FUNCTIONS *******
