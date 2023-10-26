@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background: hsl(210, 36%, 96%);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  padding: 2rem;
+
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 8rem;
+  gap: 10px;
+}
+
+.grocery-form h3 {
+  color: hsl(205, 86%, 17%);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+#grocery-input {
+  flex-grow: 1;
+  padding: 0.25rem;
+  padding-left: 1rem;
+  background: hsl(210, 36%, 96%);
+  border-radius: 0.5rem;
+  border-color: transparent;
+  font-size: 1rem;
+  color: hsl(210, 22%, 49%);
+  width: 300px;
+}
+
+button {
+  background: hsl(205, 86%, 81%);
+  border-color: transparent;
+
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  font-size: 0.85rem;
+}
+
+button:hover {
+  color: #fff;
+  background: hsl(205, 77%, 27%);
+}
+
+form,
+.clear-btn {
+  width: 75%;
+}
+
+table {
+  width: 75%;
+  border-collapse: collapse;
+}
+
+thead th,
+tfoot tr td {
+  font-weight: 600;
+}
+
+th,
+td {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+tfoot tr td {
+  border-bottom: none;
+}
