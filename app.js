@@ -51,14 +51,16 @@ form.addEventListener("submit", (event) => {
     state.groceries.push({
       name: item.name,
       quantity: qty,
-      price: item.price * qty,
+      price: item.price,
     });
-  } else {
+  } else if (itemValue.length > 0) {
     state.groceries.push({
       name: itemValue,
       quantity: qty,
       price,
     });
+  } else {
+    alert("Please enter an item name");
   }
 
   groceryInput.value = "";
