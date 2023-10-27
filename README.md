@@ -18,13 +18,18 @@ In this demo, you will be creating a grocery list where you can add items to the
 - A function is written that correctly calculates the total qty of all the items on the grocery list
 - The DOM is updated to reflect the total price and total quantity
 
+Sample solution code on the `solution` branch.
+
 ### Extra Challenges
+
+Expand this simple app by adding the following features:
 
 - Add `-` and `+` buttons on either side of an item's quantity
   - When you click `-`, the item's quantity decreases by 1
   - When you click `+`, the item's quantity increases by 1
 - Add a hover effect over a `<tr>` line item
 - When you click on an item (`<tr>`), cross it out, i.e. ~~strikethrough~~
+- Add delete/clear 1 item functionality
 
 ### Credit
 
