@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Poppins:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400;600&display=swap");
 
 * {
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-family: "Poppins", sans-serif;
+  font-family: "JetBrains Mono", monospace;
   font-weight: 400;
 }
 
@@ -95,8 +94,4 @@ td {
 
 tfoot tr td {
   border-bottom: none;
-}
-
-.complete {
-  text-decoration: line-through;
 }
